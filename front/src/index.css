@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+
+body {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.message-form {
+  display: block;
+}
+
+.message-list {
+  display: block;
+  padding-top: 12px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.message-item {
+  display: flex;
+  padding: 4px 0;
+}
+
+.message-item__button {
+  margin-left: auto;
+}
